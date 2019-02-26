@@ -1,11 +1,11 @@
 # Basic
 title: JiZhi Dang
 subtitle: A blog for Dang
-welcome_message: <a href="https://github.com/saduoduo/saduoduo.github.io" target="_blank">Download the theme</a>
-description: 在山的那边海的那边有一群小多多.
-creator: <a href="http://onev.cat">@onevcat</a>
+welcome_message: <a href="https://github.com/saduoduo/saduoduo.github.io" target="_blank">嘻嘻嘻</a>
+description: 今天也要加油呀！
 
-url: "http://vno.onevcat.com"
+
+url: "http://dangandduo.xyz"
 
 permalink: /:year/:month/:title/
 
@@ -20,11 +20,6 @@ blog_button:
     title: Blog
     description: Visit blog
 
-# Navigation buttons in the front page.
-nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
-
 # Pagination
 plugins: [jekyll-paginate]
 paginate: 10
@@ -37,11 +32,9 @@ comment:
     
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    weibo: jizhidang
+    github: saduoduo
+    mail: 969377443@qq.com
 
 # Google Analytics
 ga:
