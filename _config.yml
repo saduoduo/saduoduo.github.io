@@ -1,7 +1,7 @@
 # Basic
 title: JiZhi Dang
 subtitle: A blog for Dang
-welcome_message: <a href="https://github.com/saduoduo/saduoduo.github.io" target="_blank">嘻嘻嘻</a>
+welcome_message: <a href="https://www.baidu.com" target="_blank">点击此处有惊喜</a>
 description: 今天也要加油呀！
 
 
@@ -27,7 +27,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: jizhidang
     # duoshuo: 
     
 # Social
