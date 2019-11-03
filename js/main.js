@@ -13,15 +13,7 @@ $(document).ready(function() {
       $('.panel-cover').animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {} );
     }
   });
-  window.onload=function(){
-     var audio = document.getElementById('1.mp3.mp3'); 
-     if(audio.paused){                 
-         audio.play();//audio.play();// 播放  
-     }
-     else{
-          audio();
-     }
-    }
+
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
