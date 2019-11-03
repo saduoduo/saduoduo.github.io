@@ -14,15 +14,14 @@ $(document).ready(function() {
     }
   });
   window.onload=function(){
-      if(document.readyState == "complete"){
-       var player=document.getElementById("1.mp3.mp3");
-       if(player.paused)                     {                 
-        player.play();//audio.play();// 这个就是播放  
-       }else{
-        player.pause();// 这个就是暂停
-       }
-      }
+     var audio = document.getElementById('1.mp3.mp3'); 
+     if(audio.paused){                 
+         audio.play();//audio.play();// 播放  
      }
+     else{
+          audio();
+     }
+    }
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
