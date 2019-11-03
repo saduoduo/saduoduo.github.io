@@ -13,7 +13,16 @@ $(document).ready(function() {
       $('.panel-cover').animate({'max-width': '700px', 'width': '30%'}, 400, swing = 'swing', function() {} );
     }
   });
-
+  window.onload=function(){
+      if(document.readyState == "complete"){
+       var player=document.getElementById("player");
+       if(player.paused)                     {                 
+        player.play();//audio.play();// 这个就是播放  
+       }else{
+        player.pause();// 这个就是暂停
+       }
+      }
+     }
   if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
