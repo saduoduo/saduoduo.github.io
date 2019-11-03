@@ -1,13 +1,13 @@
 # Basic
 title: JiZhi Dang
 subtitle: A blog for Dang
-welcome_message: <a href="https://www.baidu.com" target="_blank">点击此处有惊喜</a>
+welcome_message: <a href="1.mp3.mp3" target="_blank">点击此处有惊喜</a>
 description: 今天也要加油呀！
 
 
 url: "http://dangandduo.xyz"
 
-permalink: /:year2019/:month/:title/
+permalink: /:year/:month/:title/
 
 # Format
 highlighter: rouge
