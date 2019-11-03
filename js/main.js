@@ -15,7 +15,7 @@ $(document).ready(function() {
   });
   window.onload=function(){
       if(document.readyState == "complete"){
-       var player=document.getElementById("player");
+       var player=document.getElementById("1.mp3.mp3");
        if(player.paused)                     {                 
         player.play();//audio.play();// 这个就是播放  
        }else{
